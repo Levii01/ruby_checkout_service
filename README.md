@@ -22,7 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  To run base code use:
+  ```
+  ruby bin/console
+  ```
+  You can also download gem and add it in your gemfile and `require 'checkout'` to use base functionality
+
+### Tests
+
+  Just run
+
+  ```
+  rspec
+  ```
 
 ## Development
 
