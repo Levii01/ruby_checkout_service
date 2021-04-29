@@ -1,0 +1,10 @@
+---
+- code: "001"
+  name: "Red Scarf"
+  price: 9.25
+- code: "002"
+  name: "Silver cufflinks"
+  price: 45.00
+- code: "003"
+  name: "Silk Dress"
+  price: 19.95
