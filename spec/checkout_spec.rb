@@ -29,7 +29,7 @@ RSpec.describe Checkout do
       it "adds product to basket" do
         expect(scan.size).to eq(1)
         expect(scan.last).to be_a(Checkout::Product)
-        expect(scan.last.product).to eq({"code" => "001", "name" => "Red Scarf", "price" => 9.25})
+        expect(scan.last.product).to eq({ "code" => "001", "name" => "Red Scarf", "price" => 9.25 })
       end
     end
 
